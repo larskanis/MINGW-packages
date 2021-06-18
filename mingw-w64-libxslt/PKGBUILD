@@ -94,3 +94,4 @@ package() {
   sed -s "s|${PREFIX_DEPS}|${MINGW_PREFIX}|g" -i ./libxslt.pc
   popd > /dev/null
 }
+
